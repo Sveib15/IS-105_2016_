@@ -23,3 +23,20 @@ Vi antar at hvert symbol er på 8 bits.
 Den kodede meldngen er på 12 symboler, altså 96 bits.
 Dekodet er meldingen på 22 symboler, altså 176 bits.
 Den kodede meldingen er 54,5% av størrelsen til den dekodede, som tilsvarer en komprimeringsgrad på 45,5%.
+
+
+1.2.1 
+D) 
+hvis vi ser på hva sannsynligheten for at de forskjellige bokstavene forekommer kan vi se at:
+C=17/22=77.27%
+A=3/22=13.63%
+B=2/22=09.09%
+
+Får å få så liten kode som mulig vil derfor;
+C=1
+A=10
+B=11
+Dette vil gi en melding som har størrelse: 17 bits +6 bits +4 bits =27 bits.
+Dette er en besparelse på 176bits-27bits=149bits
+Besparelsen i prosent blir derfor: 149/176=0,85=85%
+
