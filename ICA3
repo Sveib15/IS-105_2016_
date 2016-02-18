@@ -1,4 +1,4 @@
-:LZW komprimering - ICA 03 - Gruppe 4
+LZW komprimering - ICA 03 - Gruppe 4
 
 1.2.1
 Oppg A:
@@ -17,3 +17,9 @@ Dekodet med LZW:
 6 = ca -> 12 blir 'ccccc'
 10 = ccc -> 13 blir 'cac'
 1 = a -> 14 blir 'ccca'
+
+Oppg D:
+Vi antar at hvert symbol er på 8 bits.
+Den kodede meldngen er på 12 symboler, altså 96 bits.
+Dekodet er meldingen på 22 symboler, altså 176 bits.
+Den kodede meldingen er 54,5% av størrelsen til den dekodede, som tilsvarer en komprimeringsgrad på 45,5%.
