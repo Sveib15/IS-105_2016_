@@ -57,10 +57,10 @@ timerFastStr = timeit.Timer(stmt='fastStr', setup='from __main__ import fastStr'
 timerSlowStr = timeit.Timer(stmt='slowStr', setup='from __main__ import slowStr')
 
 print "Fast int:"
-print timerFast.timeit(number=1000)
+print timerFast.timeit(number=100000)
 print "Slow int:"
-print timerSlow.timeit(number=1000)
+print timerSlow.timeit(number=100000)
 print "Fast string:"
-print timerFastStr.timeit(number=1000)
+print timerFastStr.timeit(number=100000)
 print "Slow string:"
-print timerSlowStr.timeit(number=1000)
+print timerSlowStr.timeit(number=100000)
